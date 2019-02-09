@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int main(void) {
-  char ch;
-  scanf("%s",&ch);
-  if(ch>='a'&&ch<='z'||ch>='A'&&ch<='Z')
+int main() {
+  char s;
+  scanf("%s",&s);
+  if(s>='a'&&s<='z'||s>='A'&&s<='Z')
   {
     printf("Alphabet");
   }
